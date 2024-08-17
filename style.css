@@ -341,8 +341,6 @@ li{
 
 
 
-
-
 /* left hand arrangement of our services*/
 .lh{
     width: 100%;
@@ -851,7 +849,7 @@ label{
 
 /* BREAK POINTS */
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1000px){
 .header{
     background-color: #f7d6d6;
 }
@@ -915,7 +913,7 @@ label{
 
 
 /* TAB */
-@media screen and (max-width:932px){
+@media screen and (max-width:480px){
 .nav-area{
     visibility: hidden;
     
