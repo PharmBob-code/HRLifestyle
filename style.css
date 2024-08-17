@@ -106,7 +106,7 @@ img{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url(/Images/HERO\ IMAGE.jpg) center no-repeat;
+    background: url(./HERO\ IMAGE.jpg) center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -217,7 +217,7 @@ img{
 .about .right{
     width: 50%;
     height: 90vh;
-    background: url(/Images/ABOUT\ US.jpg) left no-repeat;
+    background: url(./ABOUT\ US.jpg) left no-repeat;
     background-size: cover;
     transform: scaleX(-1);
 }
@@ -308,7 +308,7 @@ li{
 .recruitment .left{
     width: 50%;
     height: 90vh;
-    background: url(/Images/service-offering.jpg) center no-repeat;
+    background: url(./service-offering.jpg) center no-repeat;
     background-size: cover;
     transform: scaleX(1);
 }
@@ -319,7 +319,7 @@ li{
 .training-dev .left{
     width: 50%;
     height: 90vh;
-    background: url(/Images/BLOG\ &\ ARTICLES.jpg) center no-repeat;
+    background: url(./BLOG\ &\ ARTICLES.jpg) center no-repeat;
     background-size: cover;
     transform: scaleX(1);
 }
@@ -386,7 +386,7 @@ li{
 .talent-mgt .right{
     width: 50%;
     height: 90vh;
-    background: url(/Images/COMMUNITY\ &\ ENGAGEMENT.jpg) center no-repeat;
+    background: url(./COMMUNITY\ &\ ENGAGEMENT.jpg) center no-repeat;
     background-size: cover;
     transform: scaleX(1);
 }
@@ -394,7 +394,7 @@ li{
 .strat-pol .right{
     width: 50%;
     height: 90vh;
-    background: url(/Images/CONSULTING\ SERVICES.jpg) center no-repeat;
+    background: url(./CONSULTING\ SERVICES.jpg) center no-repeat;
     background-size: cover;
     transform: scaleX(1);
 }
@@ -447,7 +447,7 @@ li{
 .why-choose .right{
     width: 50%;
     height: 100%;
-    background: url(/Images/HERO\ IMAGE.jpg) center no-repeat;
+    background: url(./HERO\ IMAGE.jpg) center no-repeat;
     background-size: cover;
     object-fit: cover;
     position: absolute;
@@ -461,7 +461,7 @@ li{
     width: 100;
     height: 90vh;
     position: relative;
-    background: url(/Images/ASSURANCE.jpg) top no-repeat;
+    background: url(./ASSURANCE.jpg) top no-repeat;
     background-size: 1200px;
 }
 
@@ -525,12 +525,12 @@ li{
 
 /* ABOUT */
 .about-page{
-    background: url(/Images/ABOUT\ US.jpg) center no-repeat;
+    background: url(./ABOUT\ US.jpg) center no-repeat;
 }
 
 /* CONTACT */
 .contact-page{
-    background: url(/Images/handshake.jpg) center no-repeat ;
+    background: url(./handshake.jpg) center no-repeat ;
     background-size: cover;
 }
 
@@ -620,7 +620,7 @@ li{
 /* SERVICES */
 
 .services-page{
-    background: url(/Images/SERVICES.jpg) center no-repeat;
+    background: url(./SERVICES.jpg) center no-repeat;
     background-size: 1400px;
 }
 
@@ -729,7 +729,7 @@ li{
 .values .right{
     width: 50%;
     height: 100%;
-    background: url(/Images/unnamed.jpg) center no-repeat;
+    background: url(./unnamed.jpg) center no-repeat;
     background-size: cover;
     transform: scaleX(1);
     position: absolute;
@@ -785,7 +785,7 @@ li{
 .why-us .left{
     width: 50%;
     height: 100%;
-    background: url(/Images/HERO\ IMAGE.jpg) center no-repeat;
+    background: url(./HERO\ IMAGE.jpg) center no-repeat;
     background-size: cover;
     object-fit: cover;
     position: absolute;
