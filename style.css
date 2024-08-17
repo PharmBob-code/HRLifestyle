@@ -880,7 +880,18 @@ label{
 /* Our services code */
 .our-service{
     padding: 2rem 2rem;
-    row-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.rh, .lh{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -889,12 +900,18 @@ label{
     row-gap: 0.2rem;
     padding-left: 0;
 }
+
+.rh .top, .lh .down{
+    width: 50%;
+    height: auto;
+    padding: 14rem 10rem;
+}
 }
 
 
 
 /* TAB */
-@media screen and (max-width:1170px){
+@media screen and (max-width:700px){
 .nav-area{
     visibility: hidden;
     
