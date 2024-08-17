@@ -852,6 +852,10 @@ label{
     background-color: #f7d6d6;
 }
 
+.hero .content{
+    padding-left: 2rem;
+}
+
 .about{
     padding: 2rem 2rem;
     column-gap: 0.5rem;
@@ -873,7 +877,21 @@ label{
     height: auto;
     padding: 14rem 10rem;
 }
+/* Our services code */
+.our-service{
+    padding: 2rem 2rem;
+    row-gap: 1rem;
 }
+
+
+.rh .down, .lh .top{
+    width: 42%;
+    row-gap: 0.2rem;
+    padding-left: 0;
+}
+}
+
+
 
 /* TAB */
 @media screen and (max-width:750px){
@@ -910,7 +928,6 @@ label{
 
 .about .left{
     width: 100%;
-    min-width: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -934,9 +951,9 @@ label{
 
 .about .left p{
     color: #3d5771;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 .about .left button{
@@ -960,5 +977,79 @@ label{
     transform: scaleX(-1);
     padding: 10rem;
 }
+
+
+.our-service{
+    padding: 2rem 2rem;
+    row-gap: 2rem;
+}
+
+.our-service h1{
+    font-size: 34px;
+    font-weight: 800;
+    color: #092a41;
+}
+
+ul{
+    padding-left: 2rem;
+}
+
+li{
+    color: #3d5771;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+/* right hand arrangement of our services */
+.rh, .lh{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rh .down, .lh .top{
+    width: 100%;
+    row-gap: 0.2rem;
+}
+
+.rh .down h1, .lh .top h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.rh .line, .lh .line{
+    width: 80%;
+    border: 0.1px solid #023c7e;
+}
+
+.rh .down p, .lh .top p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.rh button{
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.rh .top, .lh .down{
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+}
+
+.rh{
+    flex-direction: column-reverse;
+}
+
     
 }
