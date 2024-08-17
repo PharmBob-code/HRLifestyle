@@ -847,7 +847,7 @@ label{
 
 /* BREAK POINTS */
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
 .header{
     background-color: #f7d6d6;
 }
@@ -894,7 +894,7 @@ label{
 
 
 /* TAB */
-@media screen and (max-width:750px){
+@media screen and (max-width:1170px){
 .nav-area{
     visibility: hidden;
     
