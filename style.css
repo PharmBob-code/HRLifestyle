@@ -914,6 +914,11 @@ label{
 
 /* TAB */
 @media (max-width:580px){
+
+body{
+    max-width: 600px;
+    min-width: 420px;
+}    
 .nav-area{
     visibility: hidden;
     
