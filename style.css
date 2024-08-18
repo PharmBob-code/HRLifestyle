@@ -544,7 +544,7 @@ li{
 
 /* CONTACT */
 .contact-page{
-    background: url(./handshake.jpg) center no-repeat ;
+    background: linear-gradient(rgb(0, 3, 3, 0.5),rgba(0, 0, 0, 0.5)),url(./handshake.jpg) center no-repeat ;
     background-size: cover;
 }
 
@@ -849,7 +849,7 @@ label{
 
 /* BREAK POINTS */
 
-@media screen and (max-width:1000px){
+@media (max-width:768px){
 .header{
     background-color: #f7d6d6;
 }
@@ -913,7 +913,7 @@ label{
 
 
 /* TAB */
-@media screen and (max-width:480px){
+@media (max-width:480px){
 .nav-area{
     visibility: hidden;
     
