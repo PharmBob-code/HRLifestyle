@@ -917,7 +917,7 @@ label{
 
 body{
     max-width: 600px;
-    min-width: 420px;
+    min-width: 375px;
 }    
 .nav-area{
     visibility: hidden;
